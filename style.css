@@ -1,0 +1,39 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+    
+}
+
+body{
+    background-color: var(--Grayishblue);
+    display: flex;
+}
+.container{
+  width: 250px;
+  height: 400px;
+  background-color: var(--White);
+  margin: auto;
+  margin-top:250px;
+  border-radius: 5%;
+  padding: 10px;
+}
+.txt1{
+    text-align: center;
+    color: var(--Darkblue);
+    font-size: 22px;
+}
+.txt2{
+    text-align: center;
+    color: var(--Grayishblue);
+    font-size: 16px;
+
+}
+.img{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 5%;
+    border: 10px;
+}
